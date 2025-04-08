@@ -2866,6 +2866,711 @@ _**Assistant**_
 
 ---
 
+_**Assistant**_
+
+I'll update both project cards to use your custom images instead of the placeholders:
+
+---
+
+_**Assistant**_
+
+```
+// ... existing code ...
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/AI_powered_resumeTailor.png" alt="AI-Powered Resume Tailor">
+                    </div>
+                    <div class="project-content">
+                        <h3>Resume Parsing & Tailoring Tool</h3>
+                        <p>ML-powered tool that extracts key information from resumes into structured JSON and repackages for specific job applications, using NLP techniques over traditional regex approaches.</p>
+                        <div class="project-tags">
+                            <span>NLP</span>
+                            <span>Machine Learning</span>
+                            <span>Python</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank">Coming Soon</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/LLM_based_classification_system.png" alt="LLM-Based Classification System">
+                    </div>
+                    <div class="project-content">
+                        <h3>LLM-Based Classification System</h3>
+                        <p>Designed and refined a complex classification system using large language models to provide more nuanced understanding of customer needs and behavior patterns.</p>
+                        <div class="project-tags">
+                            <span>GenerativeAI</span>
+                            <span>LLMs</span>
+                            <span>Classification</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank">Coming Soon</a>
+                        </div>
+                    </div>
+                </div>
+// ... existing code ...
+```
+
+---
+
+_**Assistant**_
+
+Now let's commit and push these changes:
+
+---
+
+_**Assistant**_
+
+```
+git add .
+```
+
+---
+
+_**Assistant**_
+
+```
+git commit -m "Update project images with custom project cover images"
+```
+
+---
+
+_**Assistant**_
+
+```
+git push
+```
+
+---
+
+_**Assistant**_
+
+I've updated both project cards with your custom cover images:
+
+1. The "Resume Parsing & Tailoring Tool" project now displays your `AI_powered_resumeTailor.png` image
+2. The "LLM-Based Classification System" project now displays your `LLM_based_classification_system.png` image
+
+The changes have been committed and pushed to your GitHub repository. Your site at https://nanaoosaki.github.io/nana_projects/ will display these custom project images within a few minutes, replacing the generic placeholder images.
+
+These custom project images will make your portfolio look much more professional and give visitors a better visual understanding of your projects. The alt text for each image has also been updated to be more descriptive and SEO-friendly.
+
+---
+
+_**User**_
+
+udpate the project describitions to LLM&ML powered tool,  and using RAG, Prompt Engineering & NLP technques over traditional regex approaches 
+
+---
+
+_**Assistant**_
+
+
+
+---
+
+_**Assistant**_
+
+I'll update the project description for your Resume Parsing & Tailoring Tool to include the technologies you mentioned:
+
+---
+
+_**Assistant**_
+
+```
+// ... existing code ...
+                        <h3>Resume Parsing & Tailoring Tool</h3>
+                        <p>LLM&ML powered tool that extracts key information from resumes into structured JSON and repackages for specific job applications, using RAG, Prompt Engineering & NLP techniques over traditional regex approaches.</p>
+                        <div class="project-tags">
+                            <span>NLP</span>
+                            <span>Machine Learning</span>
+                            <span>Python</span>
+                        </div>
+// ... existing code ...
+```
+
+---
+
+_**Assistant**_
+
+Let's commit and push these changes:
+
+---
+
+_**Assistant**_
+
+```
+git add index.html
+```
+
+---
+
+_**Assistant**_
+
+```
+git commit -m "Update Resume Parsing project description to include LLM, RAG, and Prompt Engineering"
+```
+
+---
+
+_**Assistant**_
+
+```
+git push
+```
+
+---
+
+_**Assistant**_
+
+I've updated the project description for your Resume Parsing & Tailoring Tool to highlight the advanced technologies you're using. The description now reads:
+
+"LLM&ML powered tool that extracts key information from resumes into structured JSON and repackages for specific job applications, using RAG, Prompt Engineering & NLP techniques over traditional regex approaches."
+
+This update showcases your use of cutting-edge technologies:
+- LLM (Large Language Models) alongside traditional ML
+- RAG (Retrieval Augmented Generation)
+- Prompt Engineering
+- NLP techniques
+
+These changes have been committed and pushed to your GitHub repository. Your site at https://nanaoosaki.github.io/nana_projects/ will reflect this updated description within a few minutes.
+
+---
+
+_**User**_
+
+cool, can you create .cussorrules and document everything we've accomplished there? 
+
+---
+
+_**Assistant**_
+
+
+
+---
+
+_**Assistant**_
+
+I'll create a .cursorrules file to document everything we've accomplished with your personal site:
+
+---
+
+_**Assistant**_
+
+```
+# Nana Wang's Personal Portfolio Site
+
+## Project Summary
+This document outlines the personal portfolio website we created for Nana Wang, deployed at https://nanaoosaki.github.io/nana_projects/
+
+## Site Structure
+- Single-page responsive design
+- Clean, modern interface with customized styling
+- Mobile-friendly layout
+
+## Key Sections
+1. **Header/Navigation**
+   - Links to Home, About, Projects, and Contact sections
+   - Fixed positioning for easy navigation
+
+2. **Hero Section**
+   - Profile image (avatar.png)
+   - Name and professional title
+   - Brief professional description
+
+3. **About Section**
+   - Character image (goku.webp)
+   - Professional background
+   - Quick facts including languages, education, interests, and hobbies
+
+4. **Projects Section**
+   - Project cards with custom images
+   - Detailed project descriptions
+   - Technology tags
+   - "Coming Soon" links for future project details
+
+5. **Contact Section**
+   - Social media links (LinkedIn, GitHub)
+   - Email contact
+   - Blog link
+
+6. **Footer**
+   - Copyright information with dynamically updated year
+
+## Files Structure
+- `index.html`: Main HTML structure
+- `styles.css`: All styling and responsive design rules
+- `script.js`: JavaScript for minor interactive elements
+- `images/`: Directory containing:
+  - `avatar.png`: Profile picture
+  - `goku.webp`: Character image for About section
+  - `AI_powered_resumeTailor.png`: Project 1 image
+  - `LLM_based_classification_system.png`: Project 2 image
+- `README.md`: General project information
+- `DEPLOYMENT.md`: Detailed deployment instructions
+- `.gitignore`: Configured to ignore system and editor files
+
+## Deployment Process
+1. Created GitHub repository: https://github.com/nanaoosaki/nana_projects
+2. Set up GitHub Pages from the master branch
+3. Site is accessible at: https://nanaoosaki.github.io/nana_projects/
+
+## Git Configuration
+```bash
+# Initialize repository
+git init
+
+# Configure user
+git config --global user.email "nwangwk@gmail.com"
+git config --global user.name "Nana Wang"
+
+# Add remote repository
+git remote add origin https://github.com/nanaoosaki/nana_projects.git
+```
+
+## Key Customizations
+1. Replaced default placeholder content with personalized information
+2. Added custom profile image
+3. Adjusted profile image size and positioning
+4. Added character image next to About section
+5. Updated language information in Quick Facts
+6. Added custom project images
+7. Enhanced project descriptions with LLM, RAG, and Prompt Engineering references
+8. Modified project links to "Coming Soon"
+
+## Future Maintenance
+To update the site:
+1. Make local changes to files
+2. Commit changes: `git add .` then `git commit -m "Description of changes"`
+3. Push to GitHub: `git push`
+4. GitHub Pages will automatically rebuild and deploy
+
+## Color Scheme
+Located in the `:root` section of styles.css:
+- Primary color: #4a6fa5
+- Secondary color: #166088
+- Accent color: #4fc3dc
+
+## Technical Notes
+- Font Awesome 6.4.0 used for social icons
+- Google Fonts not used (relies on system fonts)
+- WebP image format supported for the character image
+- Responsive breakpoints at 768px for mobile devices
+```
+
+---
+
+_**Assistant**_
+
+Let's commit and push this documentation file:
+
+---
+
+_**Assistant**_
+
+```
+git add .cursorrules
+```
+
+---
+
+_**Assistant**_
+
+```
+git commit -m "Add comprehensive documentation in .cursorrules file"
+```
+
+---
+
+_**Assistant**_
+
+```
+git push
+```
+
+---
+
+_**Assistant**_
+
+I've created a comprehensive .cursorrules documentation file that captures everything we've accomplished with your personal site project. This file serves as both documentation and a reference guide for future maintenance.
+
+Key sections in the documentation include:
+
+1. **Project Summary** - Overview of the site and its deployment URL
+2. **Site Structure** - Outline of the site's organization and design approach
+3. **Key Sections** - Detailed breakdown of each site section and its components
+4. **Files Structure** - Inventory of all files and their purposes
+5. **Deployment Process** - Steps we took to deploy the site on GitHub Pages
+6. **Git Configuration** - The git commands used during setup
+7. **Key Customizations** - List of all the personalizations we made to the site
+8. **Future Maintenance** - Instructions for updating the site in the future
+9. **Color Scheme** - The color palette used in the design
+10. **Technical Notes** - Additional technical details about the implementation
+
+This documentation will be invaluable if you need to remember how something was set up or want to make further changes in the future. It's now pushed to your GitHub repository along with the rest of your site files.
+
+---
+
+_**User**_
+
+update the techniques to add GenerativeAI, LLM 
+
+---
+
+_**Assistant**_
+
+
+
+---
+
+_**Assistant**_
+
+I'll update the project tags to include GenerativeAI and LLM for your Resume Parsing & Tailoring Tool project:
+
+---
+
+_**Assistant**_
+
+```
+// ... existing code ...
+                        <div class="project-tags">
+                            <span>NLP</span>
+                            <span>Machine Learning</span>
+                            <span>Python</span>
+                            <span>GenerativeAI</span>
+                            <span>LLM</span>
+                        </div>
+// ... existing code ...
+```
+
+---
+
+_**Assistant**_
+
+Let's commit and push these changes:
+
+---
+
+_**Assistant**_
+
+```
+git add index.html
+```
+
+---
+
+_**Assistant**_
+
+```
+git commit -m "Add GenerativeAI and LLM to project tags"
+```
+
+---
+
+_**Assistant**_
+
+```
+git push
+```
+
+---
+
+_**Assistant**_
+
+I've added "GenerativeAI" and "LLM" to the project tags for your Resume Parsing & Tailoring Tool. The project now displays five technology tags that better represent the advanced techniques you're using:
+
+1. NLP
+2. Machine Learning
+3. Python
+4. GenerativeAI (added)
+5. LLM (added)
+
+These additions highlight the cutting-edge AI technologies you're working with and provide a more complete picture of your technical expertise. The changes have been committed and pushed to your GitHub repository, and your site at https://nanaoosaki.github.io/nana_projects/ will display these updated tags within a few minutes.
+
+---
+
+_**User**_
+
+the footer ; I don't have a company at this moment, what would you recommend we have there ? 
+
+---
+
+_**Assistant**_
+
+
+
+---
+
+_**Assistant**_
+
+Your current footer is simple and appropriate for a personal portfolio site, but I can suggest a few alternatives:
+
+1. **Keep it as is** - The current "© [year] Nana Wang. All rights reserved." is clean and professional.
+
+2. **Add a personal touch** - You could add a brief tagline or motto:
+   ```
+   © 2025 Nana Wang. All rights reserved. | Building AI solutions that matter
+   ```
+
+3. **Add a tech acknowledgment**:
+   ```
+   © 2025 Nana Wang | Built with passion & vanilla web technologies
+   ```
+
+4. **Minimalist approach**:
+   ```
+   © 2025 Nana Wang
+   ```
+
+5. **More casual/friendly**:
+   ```
+   Made with ❤️ by Nana Wang | © 2025
+   ```
+
+Since this is a personal portfolio, you don't need company information. The copyright notice with your name is sufficient and professional. I'd recommend option 2 or 5 to add a bit of personality while keeping it clean.
+
+Would you like me to implement any of these options for your footer?
+
+---
+
+_**User**_
+
+I think the option 2 is good 
+
+---
+
+_**Assistant**_
+
+
+
+---
+
+_**Assistant**_
+
+I'll update your footer with option 2 to add a personal touch:
+
+---
+
+_**Assistant**_
+
+```
+// ... existing code ...
+    <footer>
+        <div class="container">
+            <p>© <span id="current-year"></span> Nana Wang. All rights reserved. | Building AI solutions that matter</p>
+        </div>
+    </footer>
+// ... existing code ...
+```
+
+---
+
+_**Assistant**_
+
+Let's commit and push this change:
+
+---
+
+_**Assistant**_
+
+```
+git add index.html
+```
+
+---
+
+_**Assistant**_
+
+```
+git commit -m "Update footer with personal tagline"
+```
+
+---
+
+_**Assistant**_
+
+```
+git push
+```
+
+---
+
+_**Assistant**_
+
+Your footer has been updated with the personal tagline. It now reads:
+
+"© 2025 Nana Wang. All rights reserved. | Building AI solutions that matter"
+
+This addition gives your site a nice personal touch that reflects your professional focus. The tagline "Building AI solutions that matter" communicates your commitment to creating meaningful AI applications and adds a bit of your personal brand to the site.
+
+The changes have been committed and pushed to your GitHub repository. Your site at https://nanaoosaki.github.io/nana_projects/ will display the updated footer within a few minutes.
+
+---
+
+_**User**_
+
+replace GenerativeAI Expert, use Content Creator instead 
+
+---
+
+_**Assistant**_
+
+
+
+---
+
+_**Assistant**_
+
+I'll update your professional title to replace "GenerativeAI Expert" with "Content Creator":
+
+---
+
+_**Assistant**_
+
+```
+// ... existing code ...
+                    <div class="hero-text">
+                        <h1>Nana Wang</h1>
+                        <p class="tagline">Applied AI Scientist, Data Scientist | Content Creator</p>
+                        <p class="description">Machine learning practitioner passionate about creating practical, meaningful AI solutions.</p>
+                    </div>
+// ... existing code ...
+```
+
+---
+
+_**Assistant**_
+
+Let's commit and push this change:
+
+---
+
+_**Assistant**_
+
+```
+git add index.html
+```
+
+---
+
+_**Assistant**_
+
+```
+git commit -m "Update professional title to Content Creator"
+```
+
+---
+
+_**Assistant**_
+
+```
+git push
+```
+
+---
+
+_**Assistant**_
+
+I've updated your professional title in the hero section to read:
+
+"Applied AI Scientist, Data Scientist | Content Creator"
+
+The change has been committed and pushed to your GitHub repository. Your site at https://nanaoosaki.github.io/nana_projects/ will reflect this updated title within a few minutes.
+
+This change positions you as a content creator along with your technical expertise, which can be especially appealing if you're focusing on creating AI-related content, tutorials, or educational materials.
+
+---
+
+_**User**_
+
+remove content creator 
+
+---
+
+_**Assistant**_
+
+
+
+---
+
+_**Assistant**_
+
+I'll remove "Content Creator" from your professional title:
+
+---
+
+_**Assistant**_
+
+```
+                    <div class="hero-text">
+                        <h1>Nana Wang</h1>
+                        <p class="tagline">Applied AI Scientist, Data Scientist</p>
+                        <p class="description">Machine learning practitioner passionate about creating practical, meaningful AI solutions.</p>
+                    </div>
+```
+
+---
+
+_**Assistant**_
+
+Let's commit and push this change:
+
+---
+
+_**Assistant**_
+
+```
+git add index.html
+```
+
+---
+
+_**Assistant**_
+
+```
+git commit -m "Remove Content Creator from professional title"
+```
+
+---
+
+_**Assistant**_
+
+```
+git push
+```
+
+---
+
+_**Assistant**_
+
+I've removed "Content Creator" from your professional title. Your tagline now simply reads "Applied AI Scientist, Data Scientist" which keeps the focus on your technical expertise.
+
+The changes have been committed and pushed to your GitHub repository. Your site at https://nanaoosaki.github.io/nana_projects/ will reflect this updated title within a few minutes.
+
+---
+
+_**User**_
+
+can you add a section on the home page to advertise for my personal blogs: think about how can we easily display the latest blogs, such as the two articles I've posted @https://www.linkedin.com/pulse/unlocking-call-analytics-beyond-traditional-methods-llms-nana-wang-4wefe/?trackingId=4Ekj33wFTwK%2FfBd93i0Hgg%3D%3D  
+
+---
+
+_**Assistant**_
+
+
+
+---
+
+_**Assistant**_
+
+I'll add a "Latest Articles" section to showcase your blog posts. Let's create this section between the Projects and Contact sections:
+
+---
+
 
 
 ---
