@@ -1,0 +1,98 @@
+# Nana Wang's Personal Portfolio Site
+
+## Project Summary
+This document outlines the personal portfolio website we created for Nana Wang, deployed at https://nanaoosaki.github.io/nana_projects/
+
+## Site Structure
+- Single-page responsive design
+- Clean, modern interface with customized styling
+- Mobile-friendly layout
+
+## Key Sections
+1. **Header/Navigation**
+   - Links to Home, About, Projects, and Contact sections
+   - Fixed positioning for easy navigation
+
+2. **Hero Section**
+   - Profile image (avatar.png)
+   - Name and professional title
+   - Brief professional description
+
+3. **About Section**
+   - Character image (goku.webp)
+   - Professional background
+   - Quick facts including languages, education, interests, and hobbies
+
+4. **Projects Section**
+   - Project cards with custom images
+   - Detailed project descriptions
+   - Technology tags
+   - "Coming Soon" links for future project details
+
+5. **Contact Section**
+   - Social media links (LinkedIn, GitHub)
+   - Email contact
+   - Blog link
+
+6. **Footer**
+   - Copyright information with dynamically updated year
+
+## Files Structure
+- `index.html`: Main HTML structure
+- `styles.css`: All styling and responsive design rules
+- `script.js`: JavaScript for minor interactive elements
+- `images/`: Directory containing:
+  - `avatar.png`: Profile picture
+  - `goku.webp`: Character image for About section
+  - `AI_powered_resumeTailor.png`: Project 1 image
+  - `LLM_based_classification_system.png`: Project 2 image
+- `README.md`: General project information
+- `DEPLOYMENT.md`: Detailed deployment instructions
+- `.gitignore`: Configured to ignore system and editor files
+
+## Deployment Process
+1. Created GitHub repository: https://github.com/nanaoosaki/nana_projects
+2. Set up GitHub Pages from the master branch
+3. Site is accessible at: https://nanaoosaki.github.io/nana_projects/
+
+## Git Configuration
+```bash
+# Initialize repository
+git init
+
+# Configure user
+git config --global user.email "nwangwk@gmail.com"
+git config --global user.name "Nana Wang"
+
+# Add remote repository
+git remote add origin https://github.com/nanaoosaki/nana_projects.git
+```
+
+## Key Customizations
+1. Replaced default placeholder content with personalized information
+2. Added custom profile image
+3. Adjusted profile image size and positioning
+4. Added character image next to About section
+5. Updated language information in Quick Facts
+6. Added custom project images
+7. Enhanced project descriptions with LLM, RAG, and Prompt Engineering references
+8. Modified project links to "Coming Soon"
+
+## Future Maintenance
+To update the site:
+1. Make local changes to files
+2. Commit changes: `git add .` then `git commit -m "Description of changes"`
+3. Push to GitHub: `git push`
+4. GitHub Pages will automatically rebuild and deploy
+
+## Color Scheme
+Located in the `:root` section of styles.css:
+- Primary color: #4a6fa5
+- Secondary color: #166088
+- Accent color: #4fc3dc
+
+## Technical Notes
+- Font Awesome 6.4.0 used for social icons
+- Google Fonts not used (relies on system fonts)
+- WebP image format supported for the character image
+- Responsive breakpoints at 768px for mobile devices 
