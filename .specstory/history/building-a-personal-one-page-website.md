@@ -2429,6 +2429,198 @@ _**Assistant**_
 
 ---
 
+_**Assistant**_
+
+I'll remove the emoji icons and add this new image next to the "About Me" section. Let's make these changes:
+
+---
+
+_**Assistant**_
+
+```
+<!DOCTYPE html>
+<html lang="en">
+// ... existing code ...
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-main">
+                    <div class="profile-image">
+                        <img src="images/avatar.png" alt="Nana Wang">
+                    </div>
+                    <div class="hero-text">
+                        <h1>Nana Wang</h1>
+                        <p class="tagline">Applied AI Scientist, Data Scientist | GenerativeAI Expert</p>
+                        <p class="description">Machine learning practitioner passionate about creating practical, meaningful AI solutions.</p>
+                    </div>
+                </div>
+                <!-- Removed the emoji div -->
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-header">
+                <h2>About Me</h2>
+                <div class="about-image">
+                    <img src="images/character.png" alt="Character Image">
+                </div>
+            </div>
+            <div class="about-content">
+                // ... existing about content ...
+            </div>
+        </div>
+    </section>
+
+// ... rest of the HTML ...
+```
+
+---
+
+_**Assistant**_
+
+Now let's save the new image to the images directory:
+
+---
+
+_**Assistant**_
+
+```
+Start-BitsTransfer -Source https://raw.githubusercontent.com/nanaoosaki/nana_projects/master/images -Destination images/character.png
+```
+
+---
+
+_**Assistant**_
+
+Let's try a different approach to save the image. First, let's add CSS styling for the new image:
+
+---
+
+_**Assistant**_
+
+```
+.about-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    gap: 30px;
+}
+
+.about-image {
+    width: 120px;
+    height: 150px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.about-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-header h2 {
+    margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .about-header {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .about-image {
+        width: 100px;
+        height: 125px;
+    }
+}
+
+// ... existing code ...
+```
+
+---
+
+_**Assistant**_
+
+Let's create the character.png file in the images directory. Since we can't directly download the image, I'll suggest a simple approach:
+
+---
+
+_**Assistant**_
+
+```
+echo "Please save the character image you shared to your local images folder as 'character.png'"
+```
+
+---
+
+_**Assistant**_
+
+Now that we have the HTML and CSS updates ready, let's commit these changes:
+
+---
+
+_**Assistant**_
+
+```
+git add .
+```
+
+---
+
+_**Assistant**_
+
+```
+git commit -m "Remove emoji icons and add character image next to About Me section"
+```
+
+---
+
+_**Assistant**_
+
+```
+git push
+```
+
+---
+
+_**Assistant**_
+
+I've made the following changes to your site:
+
+1. **Removed the monkey king emojis** (🐒👑) from the hero section
+2. **Added space for the character image** next to the "About Me" heading
+3. **Styled the new image** to fit nicely with your site's design
+
+To complete the update, you'll need to:
+
+1. Save the character image you shared to your local images folder as 'character.png'
+2. Commit and push that image file to GitHub
+
+The image space is sized at 120px width by 150px height, which should be a good fit for the anime character image you shared. The layout will adjust responsively for mobile devices.
+
+Once you've added the image file to your local repository and pushed it to GitHub, your site at https://nanaoosaki.github.io/nana_projects/ will display the new image next to the "About Me" heading.
+
+Would you like me to help you save and push the image file, or would you prefer to do that yourself?
+
+---
+
+_**User**_
+
+it's a goku.webp image, would yoube abel to use that to replace character.png, will there be image data type issues for display? or should you conver it to png first 
+
+---
+
+_**Assistant**_
+
+
+
+---
+
 
 
 ---
