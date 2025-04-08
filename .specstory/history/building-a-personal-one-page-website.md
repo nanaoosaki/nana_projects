@@ -1917,6 +1917,157 @@ _**Assistant**_
 
 ---
 
+_**Assistant**_
+
+Great! Now we need to update the HTML to reference "avatar.png" instead of "profile.jpg":
+
+---
+
+_**Assistant**_
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nana Wang - Personal Site</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="profile-image">
+                    <img src="images/avatar.png" alt="Nana Wang">
+                </div>
+                <h1>Nana Wang</h1>
+                <p class="tagline">Applied AI Scientist, Data Scientist | GenerativeAI Expert</p>
+                <p class="description">Machine learning practitioner passionate about creating practical, meaningful AI solutions.</p>
+                <div class="hero-emoji">🐒👑</div>
+            </div>
+        </div>
+    </section>
+
+    // ... existing code ...
+```
+
+---
+
+_**Assistant**_
+
+Now let's commit and push these changes to GitHub:
+
+---
+
+_**Assistant**_
+
+```
+git add .
+```
+
+---
+
+_**Assistant**_
+
+```
+git commit -m "Add profile image and update HTML to reference it"
+```
+
+---
+
+_**Assistant**_
+
+I see the image was committed as "avartar.png" at the root level, not in the images directory. Let's fix this by moving the file to the correct location:
+
+---
+
+_**Assistant**_
+
+```
+move-item avartar.png images/avatar.png -force
+```
+
+---
+
+_**Assistant**_
+
+Let's commit this correction and push all changes to GitHub:
+
+---
+
+_**Assistant**_
+
+```
+git add .
+```
+
+---
+
+_**Assistant**_
+
+```
+git commit -m "Move profile image to images directory"
+```
+
+---
+
+_**Assistant**_
+
+```
+git push
+```
+
+---
+
+_**Assistant**_
+
+Perfect! Your profile image has been successfully added to your site and pushed to GitHub. Here's a summary of what we did:
+
+1. Created an "images" directory to store your profile image
+2. Added your avatar image to the site
+3. Updated the HTML to display the profile image at the top of your page
+4. Committed and pushed all changes to GitHub
+
+Your site at https://nanaoosaki.github.io/nana_projects/ should now display your profile image in a nice circular frame at the top of the page. It might take a minute or two for GitHub Pages to update with the latest changes.
+
+The profile image adds a nice personal touch to your site and makes it more engaging. GitHub Pages will automatically serve the image along with your other site content.
+
+If you want to make any more changes in the future, just:
+1. Edit the files locally
+2. Add and commit your changes with git
+3. Push to GitHub with `git push`
+
+Is there anything else you'd like to customize or enhance on your personal site?
+
+---
+
+_**User**_
+
+ok, this profile image is huge in my site, this is what I'm seeing ; please make it next to my name and my title and profession, and make it much smaller 
+
+---
+
+_**Assistant**_
+
+
+
+---
+
 
 
 ---
