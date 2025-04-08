@@ -147,6 +147,31 @@ nav a:hover {
     background-color: var(--section-bg);
 }
 
+.about-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    gap: 30px;
+}
+
+.about-image {
+    width: 120px;
+    height: 150px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.about-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-header h2 {
+    margin-bottom: 0;
+}
+
 h2 {
     font-size: 2.5rem;
     text-align: center;
@@ -345,5 +370,15 @@ footer {
     
     nav li {
         margin: 0 15px;
+    }
+    
+    .about-header {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .about-image {
+        width: 100px;
+        height: 125px;
     }
 } 

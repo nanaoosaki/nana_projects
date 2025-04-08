@@ -2296,6 +2296,139 @@ _**Assistant**_
 
 ---
 
+_**Assistant**_
+
+I'll make your profile picture bigger and align it with your name. Let's update the CSS:
+
+---
+
+_**Assistant**_
+
+```
+// ... existing code ...
+
+.hero-main {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.profile-image {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid var(--primary-color);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    flex-shrink: 0;
+}
+
+.profile-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-text {
+    text-align: left;
+    padding-top: 5px;
+}
+
+// ... rest of CSS stays the same ...
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero-main {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    
+    .hero-text {
+        text-align: center;
+        padding-top: 0;
+    }
+    
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+    
+    .profile-image {
+        width: 150px;
+        height: 150px;
+    }
+    
+    // ... existing code ...
+```
+
+---
+
+_**Assistant**_
+
+Let's commit and push these changes:
+
+---
+
+_**Assistant**_
+
+```
+git add .
+```
+
+---
+
+_**Assistant**_
+
+```
+git commit -m "Increase profile image size and align with name"
+```
+
+---
+
+_**Assistant**_
+
+```
+git push
+```
+
+---
+
+_**Assistant**_
+
+I've made the following changes to match your request:
+
+1. **Increased the profile image size**:
+   - Increased from 120px to 180px on desktop
+   - Increased from 100px to 150px on mobile
+
+2. **Aligned the image with your name**:
+   - Changed the alignment from `center` to `flex-start` so the top of the image aligns with the top of your name
+   - Added a small padding to the text to fine-tune the alignment
+
+3. **Maintained responsive design**:
+   - On mobile, the image will still display nicely but slightly smaller to fit better
+   - The layout will stack vertically on smaller screens as before
+
+The profile image should now be larger and aligned with the top of your name, similar to the layout in the second image you shared. The circular frame has been maintained for a polished look while providing adequate space for your avatar.
+
+Your changes should be visible at https://nanaoosaki.github.io/nana_projects/ within a few minutes.
+
+---
+
+_**User**_
+
+can you remove the monkey king emojies and add this image next to 'About Me' ; 
+
+---
+
+_**Assistant**_
+
+
+
+---
+
 
 
 ---
