@@ -3571,6 +3571,421 @@ I'll add a "Latest Articles" section to showcase your blog posts. Let's create t
 
 ---
 
+_**Assistant**_
+
+```
+<!-- Projects section closing tag -->
+        </div>
+    </section>
+
+    <section id="articles" class="articles">
+        <div class="container">
+            <h2>Latest Articles</h2>
+            <div class="articles-grid">
+                <!-- Article 1 -->
+                <div class="article-card">
+                    <div class="article-image">
+                        <img src="images/call-analytics.jpg" alt="Call Analytics Article" onerror="this.src='https://via.placeholder.com/350x200?text=Call+Analytics'">
+                    </div>
+                    <div class="article-content">
+                        <h3>You've Got a Shiny AI Hammer—But Are You Hitting the Right Nails?</h3>
+                        <p class="article-date">March 25, 2025</p>
+                        <p>Transforming unstructured call data into actionable insights with Large Language Models. Learn how to move beyond basic call metrics to uncover deeper customer insights.</p>
+                        <div class="article-tags">
+                            <span>LLM</span>
+                            <span>Call Analytics</span>
+                            <span>Customer Experience</span>
+                        </div>
+                        <div class="article-links">
+                            <a href="https://www.linkedin.com/pulse/unlocking-call-analytics-beyond-traditional-methods-llms-nana-wang-4wefe/" target="_blank">Read on LinkedIn</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Article 2 - Placeholder for future article -->
+                <div class="article-card">
+                    <div class="article-image">
+                        <img src="https://via.placeholder.com/350x200?text=Coming+Soon" alt="Future Article">
+                    </div>
+                    <div class="article-content">
+                        <h3>Managing LLM Output Consistency</h3>
+                        <p class="article-date">Coming Soon</p>
+                        <p>Can you trust non-deterministic LLMs for classification? This article will explore strategies for managing consistency in LLM outputs for business-critical applications.</p>
+                        <div class="article-tags">
+                            <span>LLM</span>
+                            <span>Classification</span>
+                            <span>Generative AI</span>
+                        </div>
+                        <div class="article-links">
+                            <a href="#" target="_blank">Coming Soon</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+<!-- Contact section continues -->
+```
+
+---
+
+_**Assistant**_
+
+Now let's add the CSS for the new Articles section:
+
+---
+
+_**Assistant**_
+
+```
+/* Articles Section */
+.articles {
+    padding: 100px 0;
+    background-color: var(--section-bg);
+}
+
+.articles-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 30px;
+}
+
+.article-card {
+    background-color: var(--card-bg);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.article-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.article-image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.article-content {
+    padding: 25px;
+}
+
+.article-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: var(--primary-color);
+}
+
+.article-date {
+    color: var(--light-text);
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+    font-style: italic;
+}
+
+.article-content p {
+    color: var(--light-text);
+    margin-bottom: 20px;
+}
+
+.article-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.article-tags span {
+    background-color: var(--accent-color);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+}
+
+.article-links {
+    display: flex;
+    gap: 15px;
+}
+
+.article-links a {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.article-links a:hover {
+    color: var(--secondary-color);
+}
+
+@media (max-width: 768px) {
+    .articles-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Contact Section */
+// ... existing code ...
+```
+
+---
+
+_**Assistant**_
+
+Let's update the navigation to include the new Articles section:
+
+---
+
+_**Assistant**_
+
+```
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#articles">Articles</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+```
+
+---
+
+_**Assistant**_
+
+Now let's commit and push these changes:
+
+---
+
+_**Assistant**_
+
+```
+git add .
+```
+
+---
+
+_**Assistant**_
+
+```
+git commit -m "Add Latest Articles section with LinkedIn blog post"
+```
+
+---
+
+_**Assistant**_
+
+```
+git push
+```
+
+---
+
+_**Assistant**_
+
+I've added a new "Latest Articles" section to your site that showcases your LinkedIn blog posts. Here's what I implemented:
+
+1. **New "Articles" Section**:
+   - Created a dedicated section between Projects and Contact
+   - Added to the navigation menu for easy access
+   - Styled to match your site's clean, professional design
+
+2. **Article Cards**:
+   - Featured your LinkedIn article "You've Got a Shiny AI Hammer—But Are You Hitting the Right Nails?"
+   - Included title, publication date, brief description, and relevant tags
+   - Added a direct link to read the full article on LinkedIn
+   - Added a placeholder for your next article "Managing LLM Output Consistency" that you mentioned in your LinkedIn post
+
+3. **Responsive Design**:
+   - The article cards adapt to different screen sizes
+   - Display in a grid on larger screens and stack vertically on mobile
+   - Hover effects for better user interaction
+
+This new section provides visitors with quick access to your thought leadership content and helps showcase your expertise in AI and data science. As you publish more articles, you can easily add new cards following the same format.
+
+Your changes have been committed and pushed to GitHub. The updated site should be visible at https://nanaoosaki.github.io/nana_projects/ within a few minutes.
+
+---
+
+_**User**_
+
+I can add a cover image for my linkedin article of You've Got a Shiny AI Hammer images\original_whisk_kpi_image_selective_removal_ADDED_texts_v3_bold.png; can you add it to the linkedin article ? 
+
+---
+
+_**Assistant**_
+
+
+
+---
+
+_**Assistant**_
+
+I'll update your LinkedIn article card to use the cover image you've provided:
+
+---
+
+_**Assistant**_
+
+```
+                <!-- Article 1 -->
+                <div class="article-card">
+                    <div class="article-image">
+                        <img src="images/original_whisk_kpi_image_selective_removal_ADDED_texts_v3_bold.png" alt="Call Analytics Article">
+                    </div>
+                    <div class="article-content">
+                        <h3>You've Got a Shiny AI Hammer—But Are You Hitting the Right Nails?</h3>
+```
+
+---
+
+_**Assistant**_
+
+Now let's commit and push this change:
+
+---
+
+_**Assistant**_
+
+```
+git add index.html
+```
+
+---
+
+_**Assistant**_
+
+```
+git commit -m "Update LinkedIn article with custom cover image"
+```
+
+---
+
+_**Assistant**_
+
+```
+git push
+```
+
+---
+
+_**Assistant**_
+
+I've updated your LinkedIn article card to use the custom cover image you provided. The image "original_whisk_kpi_image_selective_removal_ADDED_texts_v3_bold.png" will now be displayed for your article "You've Got a Shiny AI Hammer—But Are You Hitting the Right Nails?"
+
+I also:
+1. Removed the fallback image code since you now have a specific image
+2. Kept the same alt text for accessibility
+
+The changes have been committed and pushed to your GitHub repository. Your site at https://nanaoosaki.github.io/nana_projects/ will display the updated article card with your custom cover image within a few minutes.
+
+Using your own custom image will make the article card look more professional and aligned with your LinkedIn content.
+
+---
+
+_**User**_
+
+the image does not seem to work for the site ; but the html seemed to display it find if you open the html file with browser 
+
+---
+
+_**Assistant**_
+
+
+
+---
+
+_**Assistant**_
+
+The image may not be displaying on the GitHub Pages site because the image file either:
+
+1. Hasn't been added to git and pushed to the repository, or
+2. Has a path issue when deployed
+
+Let's check if the image exists in your git repository and add it if needed:
+
+---
+
+_**Assistant**_
+
+```
+git status
+```
+
+---
+
+_**Assistant**_
+
+I see the issue! The image file itself hasn't been added to git and pushed to your repository. The image shows locally because it's in your local file system, but it doesn't appear on the GitHub Pages site because it hasn't been uploaded to GitHub.
+
+Let's add and push the image file:
+
+---
+
+_**Assistant**_
+
+```
+git add images/original_whisk_kpi_image_selective_removal_ADDED_texts_v3_bold.png
+```
+
+---
+
+_**Assistant**_
+
+```
+git commit -m "Add LinkedIn article cover image"
+```
+
+---
+
+_**Assistant**_
+
+```
+git push
+```
+
+---
+
+_**Assistant**_
+
+I found and fixed the issue! The image file was present in your local directory, but hadn't been added to git or pushed to GitHub. 
+
+The problem was:
+1. We updated the HTML to reference the image
+2. But we never actually uploaded the image file itself to GitHub
+
+I've now:
+1. Added the image file to git
+2. Committed it with the message "Add LinkedIn article cover image"
+3. Pushed it to your GitHub repository
+
+Your site at https://nanaoosaki.github.io/nana_projects/ should display the image correctly within a few minutes once GitHub Pages rebuilds your site.
+
+This is a common issue when working with websites - you need to make sure all assets (images, CSS files, JavaScript files, etc.) are pushed to the repository, not just the HTML files that reference them.
+
+---
+
+_**User**_
+
+for the 2nd article, I've just posted my linkedin there, would you be able to update it on my site here? @https://www.linkedin.com/pulse/how-design-llm-powered-expert-decision-applications-conceptual-wang-ettge/?trackingId=JCQyhapPRViEn6%2FXeOtg5Q%3D%3D 
+
+---
+
+_**Assistant**_
+
+
+
+---
+
 
 
 ---
