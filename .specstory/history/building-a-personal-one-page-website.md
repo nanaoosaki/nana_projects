@@ -3986,6 +3986,520 @@ _**Assistant**_
 
 ---
 
+_**Assistant**_
+
+I'll update your site to include your second LinkedIn article about LLM-Powered Expert Decision Applications:
+
+---
+
+_**Assistant**_
+
+```
+            <div class="articles-grid">
+                <!-- Article 1 -->
+                <div class="article-card">
+                    <div class="article-image">
+                        <img src="images/original_whisk_kpi_image_selective_removal_ADDED_texts_v3_bold.png" alt="Call Analytics Article">
+                    </div>
+                    <div class="article-content">
+                        <h3>You've Got a Shiny AI Hammer—But Are You Hitting the Right Nails?</h3>
+                        <p class="article-date">March 25, 2025</p>
+                        <p>Transforming unstructured call data into actionable insights with Large Language Models. Learn how to move beyond basic call metrics to uncover deeper customer insights.</p>
+                        <div class="article-tags">
+                            <span>LLM</span>
+                            <span>Call Analytics</span>
+                            <span>Customer Experience</span>
+                        </div>
+                        <div class="article-links">
+                            <a href="https://www.linkedin.com/pulse/unlocking-call-analytics-beyond-traditional-methods-llms-nana-wang-4wefe/" target="_blank">Read on LinkedIn</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Article 2 -->
+                <div class="article-card">
+                    <div class="article-image">
+                        <img src="https://via.placeholder.com/350x200?text=LLM+Expert+Decisions" alt="LLM Expert Decisions Article">
+                    </div>
+                    <div class="article-content">
+                        <h3>How to Design LLM-Powered Expert Decision Applications</h3>
+                        <p class="article-date">April 14, 2025</p>
+                        <p>A conceptual framework for balancing LLM non-determinism with business needs. Learn how to strategically manage variability in expert decision systems and allocate your consistency budget wisely.</p>
+                        <div class="article-tags">
+                            <span>LLM</span>
+                            <span>Decision Systems</span>
+                            <span>Enterprise AI</span>
+                        </div>
+                        <div class="article-links">
+                            <a href="https://www.linkedin.com/pulse/how-design-llm-powered-expert-decision-applications-conceptual-wang-ettge/" target="_blank">Read on LinkedIn</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Removed the Coming Soon placeholder article -->
+            </div>
+```
+
+---
+
+_**Assistant**_
+
+Now let's try to add an image for the second article. We'll need to create or find an appropriate image:
+
+---
+
+_**Assistant**_
+
+```
+dir images
+```
+
+---
+
+_**Assistant**_
+
+```
+ls images
+```
+
+---
+
+_**Assistant**_
+
+Great! I found an image in your images directory that appears to be for the second article. Let's update the HTML to use this image:
+
+---
+
+_**Assistant**_
+
+```
+                <!-- Article 2 -->
+                <div class="article-card">
+                    <div class="article-image">
+                        <img src="images/three AIs walk into a meeting_gpt4o2_less_xkcd_coverUseFixTypo.png" alt="LLM Expert Decision Applications">
+                    </div>
+                    <div class="article-content">
+                        <h3>How to Design LLM-Powered Expert Decision Applications</h3>
+```
+
+---
+
+_**Assistant**_
+
+Let's commit and push these changes:
+
+---
+
+_**Assistant**_
+
+```
+git add .
+```
+
+---
+
+_**Assistant**_
+
+```
+git commit -m "Add second LinkedIn article about LLM-Powered Expert Decision Applications"
+```
+
+---
+
+_**Assistant**_
+
+```
+git push
+```
+
+---
+
+_**Assistant**_
+
+I've successfully updated your site to include your second LinkedIn article! Here's what I did:
+
+1. Added your new article "How to Design LLM-Powered Expert Decision Applications" to the Articles section
+2. Used the actual image file I found in your images directory (the "three AIs walk into a meeting" image)
+3. Included the publication date (April 14, 2025)
+4. Added a brief description about the conceptual framework for balancing LLM non-determinism
+5. Included relevant tags: LLM, Decision Systems, and Enterprise AI
+6. Added a direct link to your LinkedIn article
+7. Committed and pushed all changes to GitHub
+
+Your site at https://nanaoosaki.github.io/nana_projects/ will display both of your LinkedIn articles within a few minutes once GitHub Pages rebuilds your site.
+
+Now visitors to your portfolio site can see both of your published articles and easily access them through the provided LinkedIn links. The articles section gives a great overview of your thought leadership in the AI and LLM space.
+
+---
+
+_**User**_
+
+the comic cover image is actually this one images\we told our LLM to only answer when its certain.png; can you update it ? 
+
+---
+
+_**Assistant**_
+
+
+
+---
+
+_**Assistant**_
+
+I'll update your second article to use the correct comic cover image:
+
+---
+
+_**Assistant**_
+
+```
+                <!-- Article 2 -->
+                <div class="article-card">
+                    <div class="article-image">
+                        <img src="images/we told our LLM to only answer when its certain.png" alt="LLM Expert Decision Applications">
+                    </div>
+                    <div class="article-content">
+                        <h3>How to Design LLM-Powered Expert Decision Applications</h3>
+```
+
+---
+
+_**Assistant**_
+
+Now let's commit and push this change:
+
+---
+
+_**Assistant**_
+
+```
+git add index.html
+```
+
+---
+
+_**Assistant**_
+
+```
+git commit -m "Update second article with correct comic cover image"
+```
+
+---
+
+_**Assistant**_
+
+```
+git push
+```
+
+---
+
+_**Assistant**_
+
+I've updated your second article to use the correct comic cover image: "we told our LLM to only answer when its certain.png". The change has been committed and pushed to your GitHub repository.
+
+Your site at https://nanaoosaki.github.io/nana_projects/ will display the updated image within a few minutes once GitHub Pages rebuilds your site.
+
+Make sure the image file is properly uploaded to your repository. If you've added the image to your local images directory but haven't committed it yet, you'll need to do that separately.
+
+---
+
+_**User**_
+
+it is still 
+
+---
+
+_**Assistant**_
+
+
+
+---
+
+_**Assistant**_
+
+I see that the image still isn't showing up correctly on your site. This is likely because the image file "we told our LLM to only answer when its certain.png" hasn't been added to your git repository and pushed to GitHub.
+
+Let me fix this by ensuring the image is properly added and pushed:
+
+---
+
+_**Assistant**_
+
+```
+git status
+```
+
+---
+
+_**Assistant**_
+
+I found the issue! The image file "we told our LLM to only answer when its certain.png" exists in your local directory but hasn't been added to git and pushed to GitHub. Let's add and push it:
+
+---
+
+_**Assistant**_
+
+```
+git add "images/we told our LLM to only answer when its certain.png"
+```
+
+---
+
+_**Assistant**_
+
+```
+git commit -m "Add correct comic image for second article"
+```
+
+---
+
+_**Assistant**_
+
+```
+git push
+```
+
+---
+
+_**Assistant**_
+
+I found and fixed the issue! The problem was that while we updated the HTML to reference the correct image file, the image file itself hadn't been added to git and pushed to GitHub.
+
+I've now:
+1. Added the image file "we told our LLM to only answer when its certain.png" to git
+2. Committed it with a descriptive message
+3. Pushed it to your GitHub repository
+
+Your site at https://nanaoosaki.github.io/nana_projects/ should now display the correct comic image for your second article within a few minutes once GitHub Pages rebuilds your site.
+
+This is a common issue when working with websites and version control - you need to make sure all referenced files are also added to the repository, not just the HTML files that reference them.
+
+---
+
+_**User**_
+
+the top texts are cut , can you adjust the size so it fit well ? 
+
+---
+
+_**Assistant**_
+
+
+
+---
+
+_**Assistant**_
+
+I'll adjust the CSS to make sure the image displays fully without cutting off the top text:
+
+---
+
+_**Assistant**_
+
+```
+.article-image img {
+    width: 100%;
+    height: auto;
+    max-height: 250px;
+    object-fit: contain;
+    display: block;
+}
+```
+
+---
+
+_**Assistant**_
+
+Now let's commit and push these changes:
+
+---
+
+_**Assistant**_
+
+```
+git add styles.css
+```
+
+---
+
+_**Assistant**_
+
+```
+git commit -m "Adjust article image styling to prevent text cutoff"
+```
+
+---
+
+_**Assistant**_
+
+```
+git push
+```
+
+---
+
+_**Assistant**_
+
+I've fixed the image display issue by making these key CSS changes:
+
+1. Changed the image `height` from a fixed `200px` to `auto` to maintain the original aspect ratio
+2. Added a `max-height: 250px` to ensure the images don't get too large
+3. Changed `object-fit` from `cover` to `contain` - this is crucial as:
+   - `cover` fills the container but can crop parts of the image
+   - `contain` ensures the entire image is visible without cropping
+
+These changes will ensure that the full image is displayed, including all the text at the top, while still maintaining a clean, consistent layout across different article cards.
+
+The changes have been committed and pushed to your GitHub repository. Your site at https://nanaoosaki.github.io/nana_projects/ should display the complete images without cutting off any text within a few minutes once GitHub Pages rebuilds your site.
+
+---
+
+_**User**_
+
+can you update the 'Project's as 'AI Projects'  to emphasize on AI focus 
+
+---
+
+_**Assistant**_
+
+
+
+---
+
+_**Assistant**_
+
+I'll update the Projects section heading to "AI Projects" to emphasize your AI focus:
+
+---
+
+_**Assistant**_
+
+```
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>AI Projects</h2>
+            <div class="projects-grid">
+```
+
+---
+
+_**Assistant**_
+
+Now let's commit and push this change:
+
+---
+
+_**Assistant**_
+
+```
+git add index.html
+```
+
+---
+
+_**Assistant**_
+
+```
+git commit -m "Update section heading from 'Projects' to 'AI Projects'"
+```
+
+---
+
+_**Assistant**_
+
+```
+git push
+```
+
+---
+
+_**Assistant**_
+
+I've updated the section heading from "Projects" to "AI Projects" to better emphasize the AI focus of your work. This change has been committed and pushed to your GitHub repository.
+
+Your site at https://nanaoosaki.github.io/nana_projects/ will display the new heading within a few minutes once GitHub Pages rebuilds your site.
+
+This small change helps visitors immediately understand that your projects are specifically AI-focused, which aligns well with your professional profile as an Applied AI Scientist and Data Scientist.
+
+---
+
+_**User**_
+
+update to "I’m an Applied AI scientist and data scientist who brings both rigor and curiosity to every project. My approach blends deep technical expertise in machine learning and analytics with a collaborative spirit that values clarity, creativity, and empathy. I thrive on uncovering hidden assumptions, exploring the broader context of a challenge, and crafting solutions that are robust, impactful, and ethically sound. Above all, I believe in the power of open dialogue and iterative discovery to drive meaningful progress for any data-driven endeavor." 
+
+---
+
+_**Assistant**_
+
+
+
+---
+
+_**Assistant**_
+
+I'll update your hero section description with the more comprehensive text you provided:
+
+---
+
+_**Assistant**_
+
+```
+                    <div class="hero-text">
+                        <h1>Nana Wang</h1>
+                        <p class="tagline">Applied AI Scientist, Data Scientist</p>
+                        <p class="description">I'm an Applied AI scientist and data scientist who brings both rigor and curiosity to every project. My approach blends deep technical expertise in machine learning and analytics with a collaborative spirit that values clarity, creativity, and empathy. I thrive on uncovering hidden assumptions, exploring the broader context of a challenge, and crafting solutions that are robust, impactful, and ethically sound. Above all, I believe in the power of open dialogue and iterative discovery to drive meaningful progress for any data-driven endeavor.</p>
+                    </div>
+```
+
+---
+
+_**Assistant**_
+
+Now let's commit and push this change:
+
+---
+
+_**Assistant**_
+
+```
+git add index.html
+```
+
+---
+
+_**Assistant**_
+
+```
+git commit -m "Update hero description with more comprehensive professional overview"
+```
+
+---
+
+_**Assistant**_
+
+```
+git push
+```
+
+---
+
+_**Assistant**_
+
+I've updated your hero section with the more comprehensive professional description you provided. The new text does an excellent job of articulating your identity, approach, values, and strengths as an Applied AI scientist and data scientist.
+
+Your site at https://nanaoosaki.github.io/nana_projects/ will display this updated description within a few minutes once GitHub Pages rebuilds your site.
+
+This expanded description offers visitors a much deeper understanding of your professional philosophy and what sets you apart in the field. It effectively communicates not just your technical expertise, but also your thoughtful approach to problem-solving and collaborative mindset.
+
+---
+
+_**User**_
+
+update to those keywords "Analytical, inquisitive, empathetic, collaborative, rigorous, context-aware, ethical, innovative, open-minded, and solution-focused." 
+
+---
+
 
 
 ---
