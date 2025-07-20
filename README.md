@@ -3,7 +3,7 @@
 A modern, responsive portfolio website showcasing Nana Wang's work as an AI builder and data scientist.
 
 ## 🌐 Live Site
-Visit the portfolio at: [https://nanaoosaki.github.io/nana_projects/](https://nanaoosaki.github.io/nana_projects/)
+Visit the portfolio at: [https://nanawang.dev/](https://nanawang.dev/)
 
 ## 📋 About This Project
 
@@ -74,7 +74,6 @@ This site is actively maintained. Recent updates include:
 - **LinkedIn**: [Nana Wang](https://www.linkedin.com/in/nana-wang-00593465/)
 - **GitHub**: [nanaoosaki](https://github.com/nanaoosaki)
 - **Email**: nwangwk@gmail.com
-- **Blog**: [nana-w.com](https://nana-w.com/)
 
 ---
 
