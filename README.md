@@ -1,79 +1,81 @@
-# Personal Portfolio Site
+# Nana Wang's Personal Portfolio
 
-A clean, responsive single-page portfolio website to showcase your projects and professional information.
+A modern, responsive portfolio website showcasing Nana Wang's work as an AI builder and data scientist.
 
-## Features
+## 🌐 Live Site
+Visit the portfolio at: [https://nanaoosaki.github.io/nana_projects/](https://nanaoosaki.github.io/nana_projects/)
 
-- Responsive design that works on all devices
-- Clean and modern UI
-- Sections for About, Projects, and Contact
-- Easy to customize and maintain
-- Smooth scrolling navigation
-- Project cards with tags and links
+## 📋 About This Project
 
-## How to Use
+This is Nana Wang's personal portfolio website featuring a clean, two-column card-based design that highlights:
 
-1. **Customize the Content**:
-   - Open `index.html` and replace the placeholder content with your information
-   - Add your own projects to the projects section
-   - Update the social media links in the contact section
+- **Professional Background**: AI/ML expertise and data science experience
+- **Educational Background**: Masters in AI and Finance
+- **AI Projects**: Live applications including resume parsing tools and knowledge bases
+- **Published Articles**: Technical blog posts and thought leadership content
+- **Multilingual Content**: English professional blogs and upcoming Chinese content
 
-2. **Customize the Styling**:
-   - The color scheme can be easily modified in the `:root` section of `styles.css`
-   - Adjust spacing, fonts, and other styles as needed
+## 🛠 Technical Stack
 
-3. **Add Your Own Images**:
-   - Replace the placeholder images with your own project screenshots
-   - Add a favicon if desired
+- **Frontend**: HTML5, CSS3, Vanilla JavaScript
+- **Styling**: CSS Grid, Flexbox, Custom CSS Variables
+- **Icons**: Font Awesome 6.4.0
+- **Hosting**: GitHub Pages
+- **Deployment**: Automatic deployment from master branch
 
-## Deployment Options
+## 🎨 Design Features
 
-### GitHub Pages (Free and Easy)
+- **Two-column responsive layout** optimizing screen real estate
+- **Card-based design** with modern shadows and hover effects
+- **Mobile-first responsive design** that works on all devices
+- **Clean typography** with consistent color scheme
+- **Smooth scrolling navigation** between sections
+- **Professional color palette**: Blues (#4a6fa5, #166088, #4fc3dc)
 
-1. Create a GitHub repository for your site
-2. Push your code to the repository
-3. Go to Settings > Pages
-4. Select the branch to deploy (usually `main`)
-5. Your site will be available at `https://your-username.github.io/repository-name/`
+## 📁 Project Structure
 
-For a custom domain:
-1. In GitHub repository settings, under Pages, add your custom domain
-2. Configure DNS settings with your domain provider (add A records and/or CNAME)
+```
+personalSite/
+├── index.html          # Main HTML structure
+├── styles.css          # All styling and responsive design
+├── script.js           # JavaScript for navigation and interactions
+├── images/             # Profile and project images
+│   ├── avatar.png      # Profile picture
+│   ├── goku.webp       # Character image
+│   └── *.png           # Project and article images
+├── DEPLOYMENT.md       # Deployment instructions
+└── README.md           # This file
+```
 
-### Netlify (Free Tier Available)
+## 🚀 Key Sections
 
-1. Create an account on [Netlify](https://www.netlify.com/)
-2. Connect your GitHub repository or drag and drop your site folder
-3. Your site will be deployed automatically
-4. You can set up a custom domain through Netlify
+### Left Column
+- **Professional Background**: Experience in AI/ML and data science
+- **Educational Background**: Academic credentials and quick facts
+- **Testimonials**: Placeholder for colleague recommendations
 
-### Vercel (Free Tier Available)
+### Right Column  
+- **AI Projects**: Compact showcase of built applications with live links
+- **Writing Portfolio**: Categorized by language and content type
+  - English professional blogs (LinkedIn articles)
+  - Chinese coding blogs (coming soon)
+  - Chinese personal blog (coming soon)
 
-1. Create an account on [Vercel](https://vercel.com/)
-2. Connect your GitHub repository
-3. Your site will be deployed automatically
-4. Set up a custom domain through Vercel
+## 🔄 Updates & Maintenance
 
-## Updating Your Site
+This site is actively maintained. Recent updates include:
+- Redesigned from linear layout to two-column card-based design
+- Updated professional title to "AI builder"
+- Improved mobile responsiveness
+- Enhanced project display with compact format
 
-To add new projects or update existing content:
+## 📞 Contact
 
-1. Edit the HTML file to add new project cards or update information
-2. If you deployed through GitHub Pages, push changes to your repository
-3. If using Netlify or Vercel, changes will automatically deploy when you push to your repository
+- **LinkedIn**: [Nana Wang](https://www.linkedin.com/in/nana-wang-00593465/)
+- **GitHub**: [nanaoosaki](https://github.com/nanaoosaki)
+- **Email**: nwangwk@gmail.com
+- **Blog**: [nana-w.com](https://nana-w.com/)
 
-## Maintenance
+---
 
-This is a static website, which means:
-- No database or backend needed
-- Very low maintenance requirements
-- Fast loading times
-- Very secure (no server-side code to exploit)
-
-## Future Enhancements
-
-Consider adding:
-- A blog section
-- Image gallery
-- Dark/light mode toggle
-- Contact form (would require a form submission handler) 
+© 2025 Nana Wang. Building AI solutions that matter. 
