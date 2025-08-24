@@ -124,6 +124,18 @@ nav a:hover {
     line-height: 1.5;
 }
 
+.hero .superpowers {
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto 20px;
+    color: var(--text-color);
+    line-height: 1.6;
+    background-color: var(--section-bg);
+    padding: 20px;
+    border-radius: 12px;
+    border-left: 4px solid var(--primary-color);
+}
+
 .hero-emoji {
     font-size: 4rem;
     margin-top: 10px;
