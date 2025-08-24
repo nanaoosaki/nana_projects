@@ -17,7 +17,7 @@
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Source Sans Pro', 'Lato', 'Roboto', 'Open Sans', system-ui, -apple-system, sans-serif;
     line-height: 1.6;
     color: var(--text-color);
     background-color: var(--bg-color);
@@ -198,7 +198,8 @@ h2 {
     font-size: 1.6rem;
     color: var(--primary-color);
     margin: 0;
-    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-family: 'Source Sans Pro', 'Lato', sans-serif;
+    font-weight: 600;
 }
 
 .about-image {
@@ -386,7 +387,8 @@ h2 {
     margin: 0;
     font-size: 1.1rem;
     color: var(--secondary-color);
-    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-family: 'Source Sans Pro', 'Lato', sans-serif;
+    font-weight: 600;
 }
 
 .writing-items {
